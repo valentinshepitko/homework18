@@ -57,6 +57,9 @@ img {
   background: #9C69E2;
 }
 
+.hero {
+  margin-bottom: 100px;
+}
 .hero__container {
   max-width: 1250px;
   width: 100%;
@@ -83,7 +86,8 @@ img {
 }
 .about__border {
   background-color: rgba(240, 99, 184, 0.15);
-  border-radius: 5%;
+  border-radius: 30px;
+  padding-bottom: 40px;
 }
 .about__image-holder {
   max-width: 470px;
@@ -99,7 +103,7 @@ img {
   font-size: 38px;
   color: #212353;
   margin: 0;
-  padding: 0 0 40px;
+  padding: 0 0 20px;
 }
 .about__text {
   color: #4B5D68;
@@ -125,18 +129,18 @@ img {
   font-weight: 500;
 }
 .features__column {
-  border-radius: 25% 10% 10% 5%;
+  border-radius: 30% 10% 10% 15%;
   background-color: rgba(105, 201, 186, 0.1);
-  padding: 30px 125px;
-}
-.features__content-holder {
-  padding-top: 50px;
+  padding: 30px 130px;
+  position: relative;
+  margin-bottom: 20px;
 }
 .features__heading {
   font-size: 24px;
   color: #212353;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  padding: 0 0 20px;
 }
 .features__column-text {
   max-width: 220px;
@@ -146,4 +150,68 @@ img {
 .features__link {
   color: #212353;
   font-weight: 700;
+}
+.features__image {
+  position: absolute;
+  top: 87px;
+  right: 360px;
+  max-width: 230px;
+}
+
+.testimonials {
+  margin: 0 0 150px;
+}
+.testimonials__border {
+  background-color: #9C69E2;
+  border-radius: 30px;
+}
+.testimonials__title {
+  color: white;
+  font-size: 38px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  padding: 100px 0 90px 90px;
+}
+.testimonials__column-holder {
+  padding: 0 0 130px;
+}
+.testimonials__column {
+  max-width: 645px;
+  background-color: white;
+  border-radius: 15px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 20px 0 #7B5BA7;
+          box-shadow: 0 20px 0 #7B5BA7;
+}
+.testimonials__content-holder {
+  margin-right: 70px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+.testimonials__photo-holder {
+  padding: 0 0 120px 70px;
+}
+.testimonials__photo {
+  max-width: 90px;
+}
+.testimonials__name {
+  color: #212353;
+  font-weight: 700;
+  display: block;
+}
+.testimonials__site {
+  color: #9C69E2;
+  font-weight: 500;
+  font-size: 14px;
+}
+.testimonials__text {
+  color: #4B5D68;
+  max-width: 385px;
+  padding-top: 15px;
+  margin: 0;
+  line-height: 32px;
+}
+
+.footer {
+  border-top: 1px solid #9C69E2;
 }

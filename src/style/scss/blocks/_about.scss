@@ -4,7 +4,8 @@
 
   &__border{
     background-color: rgba(240, 99, 184, 0.15);
-    border-radius: 5%;
+    border-radius: 30px;
+    padding-bottom: 40px;
   }
 
 
@@ -25,7 +26,7 @@
     font-size: 38px;
     color: $dark-blue;
     margin: 0;
-    padding: 0 0 40px;
+    padding: 0 0 20px;
   }
 
   &__text{
