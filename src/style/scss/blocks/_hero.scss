@@ -1,0 +1,28 @@
+.hero {
+
+  &__container{
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+  &__content-holder{
+
+  }
+  &__title {
+    color: $dark-blue;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    max-width: 645px;
+    margin: 0 0 50px;
+  }
+
+  &__text {
+    color: $gray;
+    max-width: 375px;
+    line-height: 30px;
+    margin: 0 0 50px;
+  }
+}

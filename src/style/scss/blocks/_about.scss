@@ -1,0 +1,35 @@
+.about{
+
+  margin-bottom: 150px;
+
+  &__border{
+    background-color: rgba(240, 99, 184, 0.15);
+    border-radius: 5%;
+  }
+
+
+  &__image-holder{
+    max-width: 470px;
+  }
+
+  &__content-holder{
+    max-width: 475px;
+    margin-right: 100px;
+    padding-top: 70px;
+
+  }
+
+  &__title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    color: $dark-blue;
+    margin: 0;
+    padding: 0 0 40px;
+  }
+
+  &__text{
+    color: $gray;
+    line-height: 30px;
+  }
+}

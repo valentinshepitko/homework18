@@ -4,3 +4,122 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn {
+  color: white;
+  font-size: 20px;
+  padding: 15px 37px;
+  border-radius: 40px;
+  background: #9C69E2;
+}
+
+.hero__container {
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.hero__title {
+  color: #212353;
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  max-width: 645px;
+  margin: 0 0 50px;
+}
+.hero__text {
+  color: #4B5D68;
+  max-width: 375px;
+  line-height: 30px;
+  margin: 0 0 50px;
+}
+
+.about {
+  margin-bottom: 150px;
+}
+.about__border {
+  background-color: rgba(240, 99, 184, 0.15);
+  border-radius: 5%;
+}
+.about__image-holder {
+  max-width: 470px;
+}
+.about__content-holder {
+  max-width: 475px;
+  margin-right: 100px;
+  padding-top: 70px;
+}
+.about__title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  color: #212353;
+  margin: 0;
+  padding: 0 0 40px;
+}
+.about__text {
+  color: #4B5D68;
+  line-height: 30px;
+}
+
+.features__title-holder {
+  text-align: center;
+  max-width: 585px;
+  margin: 0 auto;
+}
+.features__title {
+  color: #212353;
+  font-size: 38px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  padding: 0 0 50px;
+  margin: 0;
+}
+.features__text {
+  color: #4B5D68;
+  font-weight: 500;
+}
